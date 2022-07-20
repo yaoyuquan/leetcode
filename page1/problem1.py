@@ -15,4 +15,3 @@ class Solution(object):
                 return [map_store[compare], index]
             else:
                 map_store[num] = index
-
