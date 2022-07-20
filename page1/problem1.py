@@ -7,11 +7,12 @@ class Solution(object):
         """
         # key is the num
         # value is the index in nums
-        map = {}
+        map_store = {}
         # add number to the map
         for index, num in enumerate(nums):
             compare = target - num
-            if compare in map:
-                return [map[compare], index]
+            if compare in map_store:
+                return [map_store[compare], index]
             else:
-                map[num] = index
+                map_store[num] = index
+
