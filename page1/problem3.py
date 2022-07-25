@@ -1,7 +1,7 @@
 class Solution(object):
     def lengthOfLongestSubstring(self, text):
         """
-        :type s: str
+        :type text: str
         :rtype: int
         """
         store_map = {}
