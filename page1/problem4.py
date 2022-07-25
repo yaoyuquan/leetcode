@@ -14,8 +14,3 @@ class Solution:
             return (nums1[length // 2 - 1] + nums1[length // 2]) / 2
         else:
             return nums1[length // 2]
-
-
-test = Solution()
-result = test.findMedianSortedArrays([1,5], [6, 10, 11])
-print(result)
